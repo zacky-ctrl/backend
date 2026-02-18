@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Runtime */
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    /* Project structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    /* Types */
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types"
+    ],
+    /* Type safety */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    /* Interop */
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": false,
+    /* DX */
+    "sourceMap": true
+  },
+  "include": [
+    "src"
+  ]
+}

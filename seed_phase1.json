@@ -1,0 +1,120 @@
+{
+  "company": {
+    "name": "Manufacturing Business",
+    "baseCurrency": "INR",
+    "fiscalYearStartMonth": 4
+  },
+
+  "accountTypes": [
+    "ASSET",
+    "LIABILITY",
+    "EQUITY",
+    "INCOME",
+    "EXPENSE"
+  ],
+
+  "accounts": [
+    {
+      "name": "Cash",
+      "type": "ASSET",
+      "parent": null
+    },
+    {
+      "name": "Bank Accounts",
+      "type": "ASSET",
+      "parent": null
+    },
+    {
+      "name": "Accounts Receivable",
+      "type": "ASSET",
+      "parent": null
+    },
+    {
+      "name": "Inventory (Raw Material)",
+      "type": "ASSET",
+      "parent": null
+    },
+
+    {
+      "name": "Accounts Payable",
+      "type": "LIABILITY",
+      "parent": null
+    },
+    {
+      "name": "Customer Advances",
+      "type": "LIABILITY",
+      "parent": null
+    },
+
+    {
+      "name": "Owner Capital",
+      "type": "EQUITY",
+      "parent": null
+    },
+
+    {
+      "name": "Sales",
+      "type": "INCOME",
+      "parent": null
+    },
+
+    {
+      "name": "Raw Material Purchase",
+      "type": "EXPENSE",
+      "parent": null
+    },
+    {
+      "name": "Manufacturing Expenses",
+      "type": "EXPENSE",
+      "parent": null
+    },
+    {
+      "name": "Transport & Freight",
+      "type": "EXPENSE",
+      "parent": null
+    },
+    {
+      "name": "Salary Expense",
+      "type": "EXPENSE",
+      "parent": null
+    },
+    {
+      "name": "Electricity Expense",
+      "type": "EXPENSE",
+      "parent": null
+    },
+    {
+      "name": "Miscellaneous Expense",
+      "type": "EXPENSE",
+      "parent": null
+    }
+  ],
+
+  "voucherTypes": [
+    {
+      "code": "SALE",
+      "name": "Sales Voucher"
+    },
+    {
+      "code": "PURCHASE",
+      "name": "Purchase Voucher"
+    },
+    {
+      "code": "RECEIPT",
+      "name": "Receipt Voucher"
+    },
+    {
+      "code": "PAYMENT",
+      "name": "Payment Voucher"
+    },
+    {
+      "code": "JOURNAL",
+      "name": "Journal Voucher"
+    }
+  ],
+
+  "partyTypes": [
+    "CUSTOMER",
+    "SUPPLIER"
+  ]
+}
